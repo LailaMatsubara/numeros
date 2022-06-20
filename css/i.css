@@ -1,0 +1,255 @@
+:root{
+    --core: rgb(218, 13, 13);
+    --grey: #2c2c2c;
+}
+*{
+    color: white ;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--grey);
+    height: auto;
+}
+.logo{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+#tittle{
+    color: white;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    height: 55px;
+    align-items: center;
+    z-index: 1000;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul {
+    height: 30px;
+    display: flex;
+    list-style: none;
+    margin-left: 108px;
+    margin-right: 108px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+h1{
+    color: var(--core);
+    padding-bottom: 20px;
+}
+h2{
+    color: var(--core);
+    padding-bottom: 20px;
+}
+.cardano{
+    width: 300px;
+    margin-top: 100px;
+    transition: all 1s ease;
+    
+}
+#hover{
+    text-align: center;
+    transition: 1s;
+}
+#txttimeline{
+    opacity: 0;   
+    width: 400px;
+    height: 40px;
+    background-color: var(--core);
+    color: black;    
+    z-index: 600;
+    padding-top: 20px;
+}
+#hover:hover > h2{
+    display: block;
+    transform: translateY(-60px);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+#hover:hover > img{
+    transform: scale(1.3);
+    transform: translateY(-30px);
+    transition: all 1s ease;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 160px;
+}
+#boxatext{
+    width: 550px;
+}
+.boxa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#timeline{
+    width: 100px;
+    height: 300px;
+    margin-top: 30px;
+}
+.imgtimeline{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+#cardano{
+    width: 400px;
+    height: 230px;
+    margin-top: 70px;
+}
+.boxb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2/3;
+    margin-top: 70px;
+}
+#graphb{
+    width: 350px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+#boxbtext{
+    width: 640px;
+}
+.boxc{
+    display: flex;
+    background-color: #252525;
+    border: 3px solid black;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 270px;
+    margin-top: 70px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+#textgraph{
+    font-size: 11pt;
+    width: 530px;
+    margin-left: 80px;
+    margin-top: 45px;
+}
+#graph{
+    width: 270px;
+    height: 220px;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+.boxd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 4/5;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+#gaussblock{
+    width: 300px;
+    height: 350px;
+    grid-column: 2/3;
+    grid-column-gap: 30px;
+    margin-left: 30px;
+}
+#gausstextblock{
+    width: 550px;
+}
+#redblock1{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+}
+#redblock2{
+    position: absolute;
+    background-color: red;
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+}
+#gauss{
+    position: absolute;
+    background-image: url(Carl_Friedrich_Gauss\ 1.png);
+    width: 250px;
+    height: 300px;
+    z-index: 600;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+button{
+    background-color: #c9c9c9;
+    font-size: 13pt;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    margin-top: 20px;
+}
+.info{
+    margin-right: 200px;
+    margin-top: 100px;
+}
+form{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px;;
+}
+textarea{
+    color: black;
+    width: 400px;
+}
+#nome{
+    height: 30px;
+}
+#email{
+    height: 30px;
+}
+
+
+.bottom-nav {
+    background: black;
+    padding: 10px;
+    height: 60px;
+    margin-left: -15px;
+    margin-bottom: 0;
+}
+  
+.bottom-nav .navbarfim {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+  
+.bottom-nav .navbarfim a {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+  

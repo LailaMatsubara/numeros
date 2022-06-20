@@ -1,0 +1,437 @@
+:root {
+  --grey: #1c1c1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  margin: 0;
+}
+
+.corpo {
+  background-color: var(--grey);
+  height: 1900px;
+}
+
+.logo {
+  width: auto;
+  padding-top: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.header {
+  background: black;
+  padding: 10px;
+  height: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .navbar {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.header .navbar a {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.header .navbar a a:hover {
+  color: blueviolet;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.maintitle {
+  color: blueviolet;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.coluna {
+  padding: 10px;
+  float: left;
+}
+
+.coluna .coluna.esquerda {
+  width: auto;
+  float: left;
+}
+
+.coluna .coluna.meio {
+  width: auto;
+}
+
+.coluna .coluna.direita {
+  width: auto;
+  float: right;
+}
+
+.timeline250 {
+  height: auto;
+  width: 170px;
+  margin-top: 30px;
+}
+
+.datas {
+  background-color: var(--grey);
+  width: 100px;
+  margin-left: -20px;
+}
+
+.texto {
+  width: 700px;
+  background-color: rgba(121, 121, 83, 0);
+  height: 290px;
+  margin-left: 50px;
+  color: white;
+}
+
+.txt {
+  text-align: justify;
+  padding-right: 30px;
+  text-indent: 25px;
+  font-size: 17px;
+}
+
+li {
+  text-align: justify;
+  padding-right: 30px;
+  font-size: 17px;
+}
+
+.infomat {
+  color: wheat;
+  margin-left: 100px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery {
+  margin-left: -60px;
+  margin-top: 75px;
+}
+
+.ft {
+  width: 350px;
+  height: 200px;
+  margin: 20px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.ft:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 500;
+  -webkit-box-shadow: 0 0 3px rgba(82, 0, 99, 0.904);
+          box-shadow: 0 0 3px rgba(82, 0, 99, 0.904);
+}
+
+.ft-main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ft-main img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.ft-main:hover {
+  height: auto;
+}
+
+.labelu {
+  width: 331px;
+  height: auto;
+  max-height: 250px;
+  color: #fff;
+  background-color: #5d1e97;
+  padding: 10px;
+  border-radius: 0px;
+  position: absolute;
+  top: 90%;
+  opacity: 0;
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.some {
+  width: 100%;
+  font-weight: 600;
+  font-size: 10pt;
+  padding-right: 15px;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  text-align: center;
+}
+
+.ft-main:hover {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+#fibonacci:hover {
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px);
+}
+
+#fibonacci:hover > .ft-main:hover div#lbl2 {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  display: block;
+  opacity: 1;
+}
+
+#fibonacci {
+  margin-top: -40px;
+}
+
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.caracol {
+  width: 400px;
+  margin-left: 40px;
+}
+
+.textodev {
+  width: 700px;
+  background-color: rgba(71, 56, 85, 0.699);
+  height: 170px;
+  margin-left: 20px;
+  margin-top: 30px;
+  color: white;
+  border-right: blueviolet;
+  border-width: 10px;
+  border-style: solid;
+  border-left: rgba(0, 0, 0, 0);
+  border-top: rgba(0, 0, 0, 0);
+  border-bottom: rgba(0, 0, 0, 0);
+  text-align: right;
+  padding: 10px;
+}
+
+.txtd {
+  font-size: 17px;
+}
+
+.row3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.caixaentret {
+  background-color: #bf93e9;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 80px;
+  height: 370px;
+  padding: 30px;
+  padding-top: 0;
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.coluna.esquerda3 {
+  float: left;
+  width: 480px;
+}
+
+.coluna.direita3 {
+  float: right;
+  width: 480px;
+  margin-top: 10px;
+}
+
+.caramujo {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.planta {
+  width: 225px;
+  margin-left: 30px;
+}
+
+.matematica {
+  color: white;
+  background-color: black;
+  height: 320px;
+  margin-top: 40px;
+}
+
+.defatomat {
+  margin: 30px;
+}
+
+.papel {
+  height: 220px;
+  margin-top: 20px;
+}
+
+.math {
+  height: 220px;
+  margin-top: 50px;
+}
+
+.catioro {
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.textoconc {
+  background-color: rgba(192, 147, 233, 0.233);
+  height: 100px;
+  margin: 100px;
+  margin-top: 80px;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: white;
+  text-indent: 25px;
+  font-size: 20px;
+}
+
+.colunarodape {
+  float: left;
+  padding: 15px;
+}
+
+.colunarodape .colunarodape.esquerda {
+  float: left;
+}
+
+.colunarodape .colunarodape.direita {
+  float: right;
+}
+
+.colunarodape .rowrodape:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+button{
+  background-color: #c9c9c9;
+  font-size: 13pt;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  color: black;
+  margin-top: 20px;
+}
+.info{
+  margin-right: 200px;
+  margin-top: 70px;
+}
+form{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+label{
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+  padding: 4px;;
+}
+textarea{
+  color: black;
+  width: 400px;
+}
+#nome{
+  height: 30px;
+}
+#email{
+  height: 30px;
+}
+
+
+h2 {
+  font-size: 2em;
+}
+
+
+.bottom-nav {
+  background: black;
+  padding: 10px;
+  height: 60px;
+  margin-left: -15px;
+  margin-bottom: 0;
+}
+
+.bottom-nav .navbarfim {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.bottom-nav .navbarfim a {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+}

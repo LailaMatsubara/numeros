@@ -1,0 +1,290 @@
+
+:root{
+    --core: #05FF00;
+    --grey: rgb(44, 44, 44);
+}
+*{
+    color: white ;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--grey);
+    height: auto;
+}
+.logo{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    height: 55px;
+    align-items: center;
+    z-index: 1000;
+}
+#tittle{
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul {
+    height: 30px;
+    display: flex;
+    list-style: none;
+    margin-left: 108px;
+    margin-right: 108px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+h1{
+    color: var(--core);
+}
+h2{
+    color: var(--core);
+    padding-bottom: 20px;
+}
+.arquimedes{
+    width: 300px;
+    margin-top: 100px;
+    transition: all 1s ease;
+    
+}
+#hover{
+    text-align: center;
+    transition: 1s;
+}
+#txttimeline{
+    opacity: 0;   
+    width: 390px;
+    height: 40px;
+    background-color: var(--core);
+    color: black;    
+    z-index: 600;
+    padding-top: 20px;
+}
+#hover:hover > h2{
+    display: block;
+    transform: translateY(-60px);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+#hover:hover > img{
+    transform: scale(1.3);
+    transform: translateY(-30px);
+    transition: all 1s ease-in-out;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 160px;
+}
+#boxa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#textoa{
+    width: 550px;
+}
+#timeline{
+    width: 100px;
+}
+.imgtimeline{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+#arquimedes{
+    width: 390px;
+    height: 200px;
+    margin-top: 45px;
+}
+#boxb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    margin-top: 70px;
+}
+
+#boxbimg{
+    width: 400px;
+    margin-left: 30px;
+}
+#textob{
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 570px;
+}
+#textoc{
+    grid-column: 1/3;
+    margin-top: 80px;
+}
+.img{
+    margin: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.textblock{
+    font-size: 11pt;
+    padding: 40px;
+    padding-left: 70px;
+}
+#boxc{
+    display: flex;
+    background-color: #252525;
+    border: 3px solid black;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 270px;
+    margin-top: 70px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+#boxd{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+#pi{
+    width: 400px;
+    height: 270px;
+    margin-top: 20px;
+}
+#texte{
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#boxe{
+    margin-top: 80px;
+    background-color: var(--grey);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3;
+    margin-left: 30px;
+}
+#textof{
+    border-left: 7px solid var(--core);
+    margin: 20px;
+    padding-left: 20px;
+}
+#textog{
+    border-left: 7px solid var(--core) ;
+    grid-row: 2/3;
+    margin: 20px;
+    padding-left: 20px;
+    margin-top: 70px;
+}
+#lastimgblock{
+    grid-row: 1/3;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+#greenblock{
+    position: absolute;
+    background-color: var(--core);
+    height: 370px;
+    width: 270px;
+    margin-left: 50px;
+}
+#piday{
+    position: absolute;
+    width: 280px;
+    margin-top: 22px;
+}
+#insideimg{
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+}
+#insideimg1{
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+}
+#piphoto{
+    position: absolute;
+    margin-top: 210px;
+    width: 280px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+}
+.vav{
+    margin-top: 30px;
+}
+button{
+    background-color: #c9c9c9;
+    font-size: 13pt;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    margin-top: 20px;
+}
+.info{
+    margin-right: 200px;
+    margin-top: 100px;
+}
+form{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px;;
+}
+textarea{
+    color: black;
+    width: 400px;
+}
+#nome{
+    height: 30px;
+}
+#email{
+    height: 30px;
+}
+
+
+.bottom-nav {
+    background: black;
+    padding: 10px;
+    height: 60px;
+    margin-left: -15px;
+    margin-bottom: 0;
+}
+  
+.bottom-nav .navbarfim {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+  
+.bottom-nav .navbarfim a {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+  

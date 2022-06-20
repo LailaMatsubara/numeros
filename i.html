@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Números Complexos i</title>
+        <link rel="stylesheet" href="css/i.css">
+    </head>
+    <body>
+        <div class="logo">
+            <h2 id="tittle">Constantes Matemáticas</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                    <li><a href="pi.html">Constante Circular π</a></li>
+                    <li><a href="fibonacci.html">Fibonacci</a></li>
+                    <li><a  href="i.html">Números Complexos <i>i</i></a></li>
+                    <li><a href="phi.html">Número de Ouro φ</a></li>
+                    <li><a href="e.html">Número de Euler <i>e</i></a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="boxa box">
+                <div id="boxatext">
+                    <h1>O número i</h1>
+                    <p class="p">A letra “i” é adotada como símbolo para um número tal que i² = -1 . Ele é considerado como a unidade imaginária do conjunto dos números complexos, uma vez que no conjunto dos números um número negativo elevado ao quadrado nunca nos dará um resultado também negativo, mas ao longo dos séculos os matemáticos se depararam com equações do segundo grau como x² + 1 = 0 que não possuiam soluções já que para eles raízes negativas não existem, e esse problema foi deixado de lado por muito tempo. <br> <br>
+                    Ao passar dos anos percebeu-se que o mesmo ocorria para equações do terceiro grau, levando a conclusão de que os números reais não eram mais suficientes.
+                    O conjunto dos complexos começou a ser desenvolvido pelo matemático Scipione dal Ferro, que elaborou uma teoria sobre o assunto mas não a publicou. <br> <br>
+                    Alguns outros matemáticos chegaram a estudar o assunto até que introduziu-se a ideia de números imaginários, mas esse nome só se tornou oficial quando Descartes escreveu em seu livro Géométrie a frase: “Nem sempre as raízes verdadeiras (positivas) ou falsas (negativas) de uma equação são reais. Às vezes elas são imaginárias”.</p>
+                </div>
+                <div class="imgtimeline">
+                    <img id="timeline" src="imagens/Captura de tela 2021-06-03 121405.png" alt="">
+                    <div id="hover">
+                        <img id="cardano" src="imagens/gerolamo.jpg" alt="">
+                        <h2 id="txttimeline">Cardano</h2>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="boxb box">
+                <div id="boxbtext">
+                    <h2>Interpretação Geométrica</h2>
+                <p class="p">Ao multiplicarmos os valores de uma reta numérica por - 1  podemos perceber que a ordem da reta é invertida, como se tivessemos girado ela por 180°. (ver a figura ao lado) <br> <br>
+                E se quiséssemos girar a reta apenas 90°? Teríamos que multiplicalá-la por qual número? Bom vamos chamar esse numero de i, e por definição  multiplicar a reta por i e depois por i de novo é o mesmo que multiplicá-la por -1, (uma vez que cada multiplicação por i causa uma rotação de 90°, e 2 vezes 90° é igual a 180°, equivalente a uma multiplicação por -1) ou seja, i² = -1. Pronto, acabamos de encontrar o número complexo i. Interessante não?
+                </p>
+                </div>
+                <img id="graphb" src="imagens/Captura de tela 2021-06-03 120710.png" alt="">
+                
+            </div>
+            <div class="boxc box">
+                <img id="graph" src="imagens/Sem título.png" alt="">
+                <div id="textgraph">
+                    Agora vamos juntar  a reta original com a multiplicada por i, formando assim um plano onde podemos representes tanto números reais quanto complexos por meio de coordenadas, tomemos como exemblo o ponto vermelho mostrado na figura ao lado, sua obcissa é o número real 2 (parte real) e sua ordenada o número complexo 2i (parte imaginária), portanto podemos escrever que esse ponto representa um número complexo igual a 2 + 2i.
+                        <br><br>
+                    Veja que no caso de a ordenada ser zero teremos apenas a parte real do número, ou seja, no eixo das abcissas podem ser representados todos os números reais.. Perceba também que quando o número i pode ser representado no plano como (0 , 1i), ou apenas (0 , 1).
+                </div>
+            </div>
+            <div class="boxd box">
+                <div id="gausstextblock">
+                    <h2>Gauss ataca novamente</h2>
+                <p class="p">
+                    O plano cartesiano em que são representados números complexos da forma a + b(raiz +1) como coordenadas do tipo (a,b) conforme mostramos anteriormente foi proposto pelo grande matemático, físico e astrônomo alemão Carl Friedrich Gauss, em 1798 ele também demonstrou em sua tese de doutorado que toda equação algébrica de grau n (n > 0) e coeficientes complexos, tem pelo menos uma raiz complexa. Esse é o chamado Teorema Fundamental da Álgebra. Tal teorema resolveu a questão das soluções de equações algébricas, e em 1832 ele introduziu a expressão número complexo.
+                    <br><br>
+                    Carl Friedrich Gauss é considerado como um dos maiores matemáticos de todos os tempos, ele trouxe várias contribuições de enorme importância para diversos ramos da ciência como,  teoria dos números, estatística, análise matemática, geometria diferencial, geodésia, geofísica, eletroestática, astronomia e óptica.
+                </p>
+                </div>
+                <div id="gaussblock">
+                    <div id="redblock1"></div>
+                    <div id="redblock2"></div>
+                    <a href="https://pt.wikipedia.org/wiki/Carl_Friedrich_Gauss"><div id="gauss"></div></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <form action="">
+                <div class="formcontnent">
+                    <label for="">Nome</label>
+                    <textarea name="nome" id="nome" cols="30" rows="1"></textarea>
+                </div>
+                <div class="formcontnent">
+                    <label for="">Email</label>
+                    <textarea name="email" id="email" cols="30" rows="1"></textarea>
+                </div>
+                <div class="formcontnent">
+                    <label for="">Mensagem</label>
+                    <textarea name="mensagen" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <button>Enviar mensagem</button>
+            </form>
+            <div class="info">
+                <p>Nomes: Eduarda Costa Vitti e Laila Matsubara Fugarino <br>
+                    Números: 4 e 21 <br> Sala: 1° ano C <br> 
+                    ETEC Vasco Antônio Venchiarutti <br>
+                    Jundiaí, SP </p>
+                    <hr>
+                    <img class="vav" src="imagens/logovav.jpg">
+                    <br> <br> <br>
+                    <p>Disciplina: Programação Web 1 <br> Professores: Cristiane Fernandes e Ronildo Ferreira
+                    <br> 09/06/2021</p>
+                    </div>
+        </footer>
+        <div class="bottom-nav">
+            <section class="navbarfim">
+                <div class="final-nav">
+                    <a href="home.html">Home</a>
+                    <a href="fibonacci.html">Fibonacci</a>
+                    <a href="i.html">i</a>
+                    <a href="phi.html">Número de Ouro φ</a>
+                    <a href="e.html">Número de Euler <i>e</i></a>
+                    <a href="pi.html">Constante circular π </a>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

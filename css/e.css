@@ -1,0 +1,240 @@
+:root{
+    --core: #48ffd1;
+    --grey: rgb(44, 44, 44);
+}
+*{
+    color: white ;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--grey);
+    height: auto;
+}
+.logo{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    height: 55px;
+    align-items: center;
+    z-index: 1000;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul {
+    height: 30px;
+    display: flex;
+    list-style: none;
+    margin-left: 108px;
+    margin-right: 108px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+h1{
+    color: var(--core);
+    padding-bottom: 20px;
+}
+h2{
+    color: white;
+    padding-bottom: 20px;
+}
+.john{
+    width: 300px;
+    margin-top: 100px;
+    transition: all 1s ease;
+    
+}
+#hover{
+    text-align: center;
+    transition: 1s;
+}
+#txttimeline{
+    opacity: 0;   
+    width: 400px;
+    height: 40px;
+    background-color: var(--core);
+    color: black;    
+    z-index: 600;
+    padding-top: 20px;
+}
+#hover:hover > h2{
+    display: block;
+    transform: translateY(-60px);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+#hover:hover > img{
+    transform: scale(1.3);
+    transform: translateY(-30px);
+    transition: all 1s ease;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 160px;
+}
+
+.listtext{
+    margin-left: 30px;
+}
+#boxa{
+    display: flex;
+}
+#timeline{
+    width: 100px;
+}
+.imgtimeline{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+#john{
+    width: 400px;
+    height: 230px;
+    margin-top: 40px;
+}
+#boxb{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+}
+#contgraph{
+    background-color: #252525;
+    border: 3px solid black;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    width: 380px;
+    margin-left: 40px;
+}
+#pb1{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 550px;
+    margin-left: 40px;
+}
+#pb2{
+    grid-column: 1/3;
+    margin-left: 40px;
+}
+#imggraph{
+    width: 380px;
+    height: 300px;
+}
+#boxc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    grid-row: 3/4;
+    margin: 40px;
+}
+#equation1{
+    width: 450px;
+    margin-top: 20px;
+}
+#equation2{
+    width: 450px;
+    margin-top: 20px;
+}
+#textdright{
+    margin-top: 40px;
+}
+#boxd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 5/6;
+}
+.blockd{
+    border-left: 8px solid var(--core);
+    padding-left: 30px;
+    margin-top: 40px;
+    width: 450px;
+}
+.blockd2{
+    margin-left: 60px;
+}
+.blockd4{
+    margin-left: 60px;
+}
+#titleend{
+    grid-row: 4/5;
+    margin-top: 30px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+button{
+    background-color: #c9c9c9;
+    font-size: 13pt;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    margin-top: 20px;
+}
+.info{
+    margin-right: 200px;
+    margin-top: 100px;
+}
+form{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px;;
+}
+textarea{
+    color: black;
+    width: 400px;
+}
+#nome{
+    height: 30px;
+}
+#email{
+    height: 30px;
+}
+
+
+.bottom-nav {
+    background: black;
+    padding: 10px;
+    height: 60px;
+    margin-left: -15px;
+    margin-bottom: 0;
+}
+  
+.bottom-nav .navbarfim {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+  
+.bottom-nav .navbarfim a {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+  

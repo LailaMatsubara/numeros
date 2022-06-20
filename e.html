@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Número de Euler e</title>
+        <link rel="stylesheet" href="css/e.css">
+        
+    </head>
+    <body>
+            <div class="logo">
+                <h2>Constantes Matemáticas</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="pi.html">Constante Circular π</a></li>
+                    <li><a href="fibonacci.html">Fibonacci</a></li>
+                    <li><a  href="i.html">Números Complexos <i>i</i></a></li>
+                    <li><a href="phi.html">Número de Ouro φ</a></li>
+                    <li><a href="e.html">Número de Euler <i>e</i></a></li>
+                </ul>
+            </nav>
+            <main>
+            <div id="boxa">
+                <div class="texta">
+                    <h1>O número de Euler (e)</h1>
+                <p>
+                    Esse número, assim como outros que também encontram-se neste site, é irracional. Na matemática denominamos irracional todo e qualquer número que não possa ser expresso como uma razão, fração, de dois números pertencentes ao conjunto dos inteiros positivos:
+                </p><br>
+                    <ul class="listtext">
+                        <li>Irracional - é o número que não pode ser expresso como a razão de dois números integrais.</li>
+                    </ul>
+                    <br>
+                    <p>
+                        Números irracionais possuem as seguintes caractrísticas:
+                    </p> <br>
+                    <ul class="listtext">
+                        <li>Não pode ser contado,</li>
+                        <li>O número de decimais que o compõe é infinito,</li>
+                        <li>Os decimais que o compõe não seguem nenhuma sequência lógica.</li>
+                    </ul><br>
+                    <p>
+                        O valor de e é 2,718281828459045235360287471352662497757... infinitamente.
+                    </p> 
+                </div>
+                    <div class="imgtimeline">
+                        <img id="timeline" src="imagens/Captura de tela 2021-06-03 113717.png" alt="">
+                        <div id="hover">
+                            <img id="john" src="imagens/john-napier.jpg" alt=""> 
+                            <h2 id="txttimeline">John Napier</h2>
+                        </div>
+                            
+                    </div>
+                </div>
+            <div id="boxb">
+                <div id="contgraph">
+                    <img id="imggraph" src="imagens/Captura de tela 2021-06-03 115131.png" alt="">
+                </div>
+                <p id="pb1">
+                    Esse é talvez um dos números mais interessantes de que temos conhecimento, e apareceu pela primeira vez nos estudos de John Napier (1550-1617) sobre logaritmos (veja mais sobre logs no final da página) que facilitou o desenvolvimento científico pois possibilitava fazer somas no lugar de multipliações e subtrações no lugar de divisões
+    <br><br>
+                    Posteriormento Jacques Bernoulli (1654-1705) pensou no seguinte problema:
+                    Como investir 1 real com taxa nominal de 100% ao ano?<br>
+                    Ou seja, ele queria saber qual seria o maior lucro que se poderia obter com juros compostos. Para ilustrar melhor a ideia tomemos um exemplo, diagamos que você invista uma quantidade D de dinheiro em um banco recebendo um juros de 100% no final do ano, assim decorridos 12 mese você receberá no total D + D, o dobro do que tinha antes, que pode ser reescrito como D(1 + 1), igual a 2D.
+                    <br><br>
+                    Mas e se você recebesse 50% de juros a cada 6 meses? Na primeira metade do ano teria D + 1/2 D. No final do ano somariamos mais 50% do que vc já tinha, ou seja, D + 1/2 D + (D + 1/2 D)1/2, que pode ser fatorado resultando em D(1 + 1/2)², que é igual a 2,25D. Perceba que no segundo caso recebemos uma maior quantia com os juros.
+                    
+                </p>
+                <p id="pb2">
+                    E se fosse um juros de 33% a cada 4 meses? Veja que a mesma ideia poderia ser aplicada e teriamos no final do ano P(1 + 1/3)³ = 2,37P. Assim é fácil perceber que o valor fica tão maior quanto maior foi o número n na expressão P(1 + 1/n)^n assim o valor mais alto que ela pode atingir será lim n --> 0 (1 + 1/n)^n que acaba sendo igual ao número irracional e. Essa função por ser exponencial tem o gráfico representado como na figura, que nunca chegrá a ter uma ordenada igual a 0 
+                </p>
+            </div>
+            <div id="boxc">
+                <div class="textleft">
+                    <p>e também pode ser calculado por meio da série de taylor</p>
+                    <img id="equation1" src="imagens/Captura de tela 2021-06-03 114519.png" alt="">
+                    <p>ou por meio da fração continua</p>
+                    <img id="equation2" src="imagens/Captura de tela 2021-06-03 114359.png" alt="">
+                </div>
+                <p id="textdright">
+                    Ele aparece (com outras constantes fundamentais) na identidade de Euler, considerada a expressão mais "bela" da matemática: <br><br>
+
+                    Obtém-se tal relação por meio da fórmula: <br>
+                    
+                    que, por sua vez, advém da série de Taylor para
+                    <br><br>
+                    f(ix)=e^{ix}}f(ix)=e^{{ix}}.
+                    <br><br>
+                    Leonhard Euler começou a usar a letra "e" para representar a constante em 1727, e o primeiro uso de {\displaystyle e}e foi na publicação Euler’s Mechanica (1736). As verdadeiras razões para escolha da letra são desconhecidas, mas especula-se que seja porque e é a primeira letra da palavra exponencial.
+                    </p>
+            </div>
+            <h1 id="titleend">Onde e aparece no nosso cotidiano?</h1>
+            <div id="boxd">
+                    <div class="blockd blockd1">Digamos que você jogue na loteira 1000000, com uma chance de 1/1000000 de ganhar, a sua chance de perder será de 1/e ou 36,8% aproximadamente. Isso ocorre porque a chance de 1/1000000 de ganhar te deixa com 0.999999% de chance de perder, o que pode ser escrito como (1 - 1/1000000), elevando isso a 1000000 teremos a sua chance de perder todas as vezes, que se aproxima muito de 1/e.</div>
+                    <div class="blockd blockd2">Pegue um pedaço de graveto com 10 unidades de medida, quebre-o em dois pedaços de 5 unidades, 5 * 5 = 25. Se você o quebrasse em 3 pedaços iguais cada um teria 3,33 unidades, 3,33 * 3,33 * 3,33= 37.037. Divindo o mesmo em 4 pedaçoes cada um com 2,5 unidades teriamos que o produto seri 2,5 *2,5 *2,5 * 2,5 = 39,0625. Finalmente se ele fosse quebrado em 5 pedaços de 2 unidades cada, 2*2*2*2*2 =32.
+                        Com isso percebos que o produto dos pedaços é maior quando o comprimento de cada um tem o seu valor mais próximo de e.
+                        </div>
+                    <div class="blockd blockd3">Em uma função exponencial do tipo f(x) = x^(x^(x^(x^(x^(...)))) infinitamente, o valor de f(x) irá converger para algum número se x estiver entre 1/e^(e) e e^(1/e).
+                        Por exemplo, se x for igual a 2^(1/2), que está entre os dois números supracitados, então f(2^(1/2) = 1.999999.. que converge para 2. 
+                        Qual número fora desse intevalo iria até o inifinito.</div>
+                    <div class="blockd blockd4">Se deixarmos um pêndulo oscilando dentro de um recipiente preenchido com liquido, sua amplitude de oscilação será cada vez menor e no gráfico que a representa se aproxima de zero com uma curva exponencial dada por A*e^(-kt)</div>
+                    
+            </div>
+            </main>
+            <footer>
+                <form action="">
+                    <div class="formcontnent">
+                        <label for="">Nome</label>
+                        <textarea name="nome" id="nome" cols="30" rows="1"></textarea>
+                    </div>
+                    <div class="formcontnent">
+                        <label for="">Email</label>
+                        <textarea name="email" id="email" cols="30" rows="1"></textarea>
+                    </div>
+                    <div class="formcontnent">
+                        <label for="">Mensagem</label>
+                        <textarea name="mensagen" id="msg" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>Enviar mensagem</button>
+                </form>
+                <div class="info">
+                    <p>Nomes: Eduarda Costa Vitti e Laila Matsubara Fugarino <br>
+                        Números: 4 e 21 <br> Sala: 1° ano C <br> 
+                        ETEC Vasco Antônio Venchiarutti <br>
+                        Jundiaí, SP </p>
+                        <hr>
+                        <img class="vav" src="imagens/logovav.jpg">
+                        <br> <br> <br>
+                        <p>Disciplina: Programação Web 1 <br> Professores: Cristiane Fernandes e Ronildo Ferreira
+                        <br> 09/06/2021</p>
+                        </div>
+                
+            </footer>
+            <div class="bottom-nav">
+                <section class="navbarfim">
+                    <div class="final-nav">
+                        <a href="home.html">Home</a>
+                        <a href="fibonacci.html">Fibonacci</a>
+                        <a href="i.html">i</a>
+                        <a href="phi.html">Número de Ouro φ</a>
+                        <a href="e.html">Número de Euler <i>e</i></a>
+                        <a href="pi.html">Constante circular π </a>
+                    </div>
+                </section>
+            </div>
+        </container>
+    </body>
+</html>
